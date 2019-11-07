@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 def Confusao(y,ypred):
   cm=np.array(pd.crosstab(y, ypred))
