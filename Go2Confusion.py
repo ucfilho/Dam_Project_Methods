@@ -1,3 +1,5 @@
+import numpy as np
+
 def Confusao(y,ypred):
   cm=np.array(pd.crosstab(y, ypred))
   TP = np.diag(cm) # true positive
